@@ -120,6 +120,33 @@
   padding: 1.5rem;
   margin-top: 2rem;
 }
+.evangadi-highlight {
+  background-color: #f97316; /* orange */
+  color: white;
+  box-shadow: 0px 0px 12px rgba(249, 115, 22, 0.6);
+}
+
+.amazon-highlight {
+  background-color: #1f5fae; /* Amazon dark blue */
+  color: white;
+  box-shadow: 0px 0px 12px rgba(35, 47, 62, 0.6);
+}
+
+.netflix-highlight {
+  background-color: #e50914; /* Netflix red */
+  color: white;
+  box-shadow: 0px 0px 12px rgba(229, 9, 20, 0.6);
+}
+
+// .evangadi-highlight {
+//   background-color: #f97316; /* Orange */
+//   color: white;
+//   box-shadow: 0px 0px 12px rgba(249, 115, 22, 0.6);
+// }
+// .evangadi-highlight {
+//   border: 3px solid red;
+// }
+
 
 /* Media Query */
 

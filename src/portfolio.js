@@ -168,7 +168,7 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
+
 
 // const workExperiences = {
 //   display: true, //Set it to true to show workExperiences Section
@@ -200,6 +200,8 @@ const techStack = {
 //     }
 //   ]
 // };
+// Work experience section
+
 const workExperiences = {
   display: true,
   experience: [
@@ -226,18 +228,20 @@ const workExperiences = {
       ]
     },
     {
-      role: "Blockchain Explorer",
-      company: "Solana Trading Bot",
-      companylogo: require("./assets/images/solana.webp"),
+      role: "Full Stack Developer",
+      company: "EVANGADI Forum",
+      companylogo: require("./assets/images/img 2.jpg"),
       date: "2025",
-      desc: "Creating an automated Solana trading bot that listens to Telegram and Twitter feeds for contract detection and execution.",
+      desc: "Contributed to the development and maintenance of the EVANGADI Forum platform, enhancing the user experience and ensuring smooth backend operations for community discussions.",
       descBullets: [
-        "Listens to blockchain-related channels and triggers buy commands",
-        "Includes dynamic slippage control and transaction signing"
+        "Built and optimized RESTful APIs for user authentication and question-answer interactions",
+        "Integrated a shared MySQL Clever Cloud database to support dynamic forum content",
+        "Improved responsiveness and performance on the client side using React and Axios"
       ]
     }
   ]
 };
+
 
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -245,7 +249,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -255,7 +259,7 @@ const bigProjects = {
   subtitle: "Amazon and Netflix-inspired builds to demonstrate real-world app development and UI mastery",
   projects: [
     {
-      image: require("./assets/images/amazon1.png"),
+      image: require("./assets/images/img 1.jpg"),
       projectName: "Amazon Clone",
       projectDesc: "Amazon clone with React, Firebase, and Stripe for shopping and secure checkout.",
       footerLink: [
@@ -267,7 +271,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/netflix.jpeg"),
+      image: require("./assets/images/Evan.jpg"),
       projectName: "Netflix Clone",
       projectDesc: "Netflix clone using React and TMDB API with real-time trailers and user-friendly UI.",
       footerLink: [

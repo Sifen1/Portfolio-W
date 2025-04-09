@@ -32,11 +32,28 @@ export default function ExperienceCard({cardInfo, isDark}) {
 
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
-      <div style={{background: rgb(colorArrays)}} className="experience-banner">
+      {/* <div style={{background: rgb(colorArrays)}} className="experience-banner"> */}
+      <div
+  className={`experience-banner ${
+    cardInfo.company === "EVANGADI Forum" ? "evangadi-highlight" 
+    : cardInfo.company === "Amazon Clone"? "amazon-highlight"
+    : cardInfo.company === "Netflix Clone "? "netflix-highlight"
+    : ""
+  }`}
+  style={{
+    background: cardInfo.company === "EVANGADI Forum" ||
+    cardInfo.company === "Amazon Clone" ||
+    cardInfo.company === "Netflix Clone "
+    ? "" 
+    :`rgb(${colorArrays})`
+  }}
+>
+
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
+        
 
         <img
           crossOrigin={"anonymous"}
