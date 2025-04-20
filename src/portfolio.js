@@ -226,6 +226,7 @@ const workExperiences = {
         "Fetched real-time movie data from TMDB",
         "Built a sleek, responsive interface with React Hooks"
       ]
+      
     },
     {
       role: "Full Stack Developer",
@@ -266,6 +267,18 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://sifen1.github.io/Amazone-Clone/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/img 2.jpg"),
+      projectName: "EVANGADI Forum",
+      projectDesc: "Q&A forum built with React and Node.js for posting questions and connecting with the community.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://evangadi-forum-sifen.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
