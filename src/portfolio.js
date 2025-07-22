@@ -125,17 +125,19 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    {
-      schoolName: "Addis Ababa University",
-      logo: require("./assets/images/addiss.jpeg"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2020 - April 2024",
-      desc: "I actively contributed to groundbreaking research in the field of blockchain technology.",
-      descBullets: [
-        "Leveraging Smart Contracts for Decentralized Finance ",
-        "Blockchain Scalability: Approaches and Challenges"
-      ]
-    },
+  {
+  schoolName: "Evangadi Tech",
+  logo: require("./assets/images/evanagadi logo.png"), // your image path
+  subHeader: "Full Stack Web Development (MERN) Program",
+  duration: "Completed on April 21, 2025",
+  desc: "Earned a certificate for successfully completing the Full Stack Web Development (MERN) Program offered by Evangadi INC.",
+  descBullets: [
+    "Built and deployed full-stack applications using MongoDB, Express, React, and Node.js",
+    "Learned frontend and backend development, database design, and RESTful APIs",
+    "Completed real-world projects with a focus on clean UI, scalability, and performance"
+  ]
+}
+
     // {
     //   schoolName: "Stanford University",
     //   logo: require("./assets/images/stanfordLogo.png"),
@@ -364,15 +366,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Orange Digital Center – Training Participant",
+      title: "Evangadi Tech – Full Stack Developer Program Graduate",
       subtitle:
-        "Participated in a foundational tech training program on integrated technology and mentorship, hosted by Orange Digital Center Ethiopia and Cruise School.",
-      image: require("./assets/images/oranage.png"), // You can add or download a logo for Orange Digital
+        "Successfully completed the Full Stack Developer training program at Evangadi Tech, gaining hands-on experience in front-end and back-end web development, as well as mentorship and career readiness..",
+      image: require("./assets/images/evanagadi logo.png"), // You can add or download a logo for Orange Digital
       imageAlt: "Orange Digital Center Logo",
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://drive.google.com/file/d/1SEkaJ8SCEiLsRkGXVcQdpT1rwi9M7ifc/view?usp=drive_link"
+          url: "https://drive.google.com/file/d/1woanLwyqlikewdNHkyuQS3WXzqVXtmvW/view?usp=sharing"
         }
       ]
     }
